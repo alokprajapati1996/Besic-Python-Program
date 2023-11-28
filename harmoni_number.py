@@ -1,4 +1,4 @@
-'''
+"""
 
 @Author: Alok kumar
 
@@ -10,10 +10,10 @@
 
 @Title : Besic-python-program
 
-'''
-sum=0
-num=int(input("Enter a value: "))
-if(num!=0):
-    for i in range(1,num+1):
-      sum=float(sum+1/i)
-print(sum)
+"""
+sum_ = 0
+num = int(input("Enter a value: "))
+if num != 0:
+    for i in range(1, num + 1):
+        sum_ = float(sum_ + 1 / i)
+print(sum_)
