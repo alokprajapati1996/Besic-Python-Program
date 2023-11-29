@@ -1,4 +1,4 @@
-'''
+"""
 
 @Author: Alok kumar
 
@@ -8,9 +8,9 @@
 
 @Last Modified time: 24-11-2023 9:00:30
 
-@Title : Besic-python-program
+@Title : Dictionary practice program
 
-'''
+"""
 a = 33
 b = 33
 if b > a:

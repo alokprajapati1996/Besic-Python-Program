@@ -11,29 +11,31 @@
 @Title : tuple practice all the function
 
 """
-tuple1=(1,2,3,4,5)
-print(tuple1)
-print(len(tuple1))
-print(tuple1[-3])
-print(tuple1[2:4])
-print(tuple1[:])
-print(tuple1[-5:-1])
-#chek number exist or not
-if 4 in tuple1:
+tuple_1 = (1, 2, 3, 4, 5)
+print(tuple_1)
+print(len(tuple_1))
+print(tuple_1[-3])
+print(tuple_1[2:4])
+print(tuple_1[:])
+
+print(tuple_1[-5:-1])
+
+# Check number exist or not
+if 4 in tuple_1:
     print("yes exist")
-#check tuple length
-print(type(tuple1))
+# Check tuple length
+print(type(tuple_1))
 
-#access tuple itam
-print(tuple1[1])
+# access tuple
 
-#negative index
-print(tuple1[-1])
+print(tuple_1[1])
+# negative index
+print(tuple_1[-1])
 
-#range of item lik slicing
-print(tuple1[0:3])
+# range of item lik slicing
+print(tuple_1[0:3])
 
-#update tuple value
+# update tuple value
 x = ("apple", "banana", "orange")
 y = list(x)
 y[1] = "kiwi"
